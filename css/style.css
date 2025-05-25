@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hover-zoomin img {
+    transition: transform 0.3s ease;
+}
+
+.hover-zoomin:hover img {
+    transform: scale(1.05);
+}
